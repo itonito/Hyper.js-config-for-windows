@@ -142,7 +142,8 @@ module.exports = {
         "hyper-solarized-dark",
         "hyper-solarized-light",
         "hyper-material-theme",
-        "hyper-oceanic-next"
+        "hyper-oceanic-next",
+        'hyper-opacity',
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
