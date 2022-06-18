@@ -144,6 +144,10 @@ module.exports = {
         "hyper-material-theme",
         "hyper-oceanic-next",
         'hyper-opacity',
+        "hyperterm-paste",
+        "hyper-statusline",
+        "hyperline",
+        "hyperlinks"
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
