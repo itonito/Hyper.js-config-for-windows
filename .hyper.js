@@ -11,7 +11,7 @@ module.exports = {
         // default font size in pixels for all tabs
         fontSize: 16,
         // font family with optional fallbacks
-        fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+        fontFamily: '"Fira Code",Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
         // default font weight: 'normal' or 'bold'
         fontWeight: 'normal',
         // font weight for bold characters: 'normal' or 'bold'
@@ -98,7 +98,9 @@ module.exports = {
         // by default `['--login']` will be used
         shellArgs: ['~'],
         // for environment variables
-        env: {},
+        env: {
+            'TERM': 'xterm-256color',
+        },
         // Supported Options:
         //  1. 'SOUND' -> Enables the bell as a sound
         //  2. false: turns off the bell
@@ -147,7 +149,8 @@ module.exports = {
         "hyperterm-paste",
         "hyper-statusline",
         "hyperline",
-        "hyperlinks"
+        "hyperlinks",
+        "hyper-font-ligatures"
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
